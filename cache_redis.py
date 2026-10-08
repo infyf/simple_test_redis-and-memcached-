@@ -32,7 +32,7 @@ def get_file(url: str, filename: str) -> None:
 
 
 if __name__ == "__main__":
-    URL1 = "https://www.ixbt.com/img/n1/news/2023/6/4/IMG_0826_large.JPG"
+    URL1 = "https://gumoreska.in.ua/opys-pryrody/"
 
     url = URL1
     tm1 = time.time()
