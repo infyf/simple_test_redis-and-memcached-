@@ -27,10 +27,9 @@ def get_file(url: str, filename: str) -> None:
 
 
 if __name__ == "__main__":
-    URL1 = "https://www.ixbt.com/img/n1/news/2023/6/4/IMG_0826_large.JPG"
-    URL2 = "https://www.ixbt.com/img/n1/news/2023/6/4/IMG_0828_large.JPG"
-    URL3 = "https://www.ixbt.com/img/n1/news/2023/6/4/IMG_0829_large.JPG"
-
+    URL1 = "https://zakarpattya.net.ua/Blogs/208873-Z-istorii-vzaiemostosunkiv-liudyny-ta-pryrody-na-Zakarpatti"
+    URL2 = "https://gumoreska.in.ua/opys-pryrody/"
+    
     url = URL2
     tm1 = time.time()
     get_file(url, url.split("/")[-1])
